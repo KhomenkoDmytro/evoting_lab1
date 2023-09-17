@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Кабінет виборця</h1>
+    </header>
+    <div class="check_voting_list">
+      <h1>1 етап: Перевірка включення у список</h1>
+      <form class="check-form">
+        <div>
+          <label for="pib">ПІБ (Повне ім'я):</label>
+          <input type="text" id="pib" name="pib" required />
+        </div>
+        <div>
+          <label for="inn">ІНН (Індивідуальний податковий номер):</label>
+          <input type="text" id="inn" name="inn" required />
+        </div>
+        <div>
+          <button type="submit">Перевірити</button>
+        </div>
+      </form>
+      <div id="resultContainer"></div>
+    </div>
+    <div class="voting-list">
+      <h1>2 етап: Позначте кандидата</h1>
+      <form id="votingForm">
+
+      </form>
+      <div class="votingResult"></div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

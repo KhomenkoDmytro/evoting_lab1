@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type='text'] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resultContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+.voting-list {
+  margin-top: 50px;
+}
+
+.voting-list h1 {
+  font-size: 24px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.voting-list form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.voting-list input[type='radio'] {
+  display: inline-block;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.voting-list label {
+  display: inline-block;
+  align-items: center;
+  font-size: 16px;
+}
+
+.voting-list button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.voting-list button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+.voting-list .votingResult {
+  text-align: center;
+  margin-top: 20px;
+}
